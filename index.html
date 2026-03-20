@@ -796,6 +796,20 @@
     padding: 4px;
     line-height: 1;
   }
+  .mobile-back-btn {
+    font-family: var(--font-display);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+    padding: 5px 9px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
   .mobile-menu {
     position: fixed;
     top: 56px; left: 0; bottom: 0;
@@ -952,8 +966,9 @@
 
 <!-- MOBILE HEADER -->
 <header class="mobile-header" aria-label="Mobile header">
-  <button class="menu-toggle" id="menuToggleBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  <a href="https://brusovcoach.org" class="mobile-back-btn">← Main</a>
   <h1>Health &amp; Longevity Hub</h1>
+  <button class="menu-toggle" id="menuToggleBtn" aria-label="Open menu" aria-expanded="false">☰</button>
 </header>
 
 <!-- MOBILE MENU -->
